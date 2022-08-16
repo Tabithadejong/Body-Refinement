@@ -73,12 +73,9 @@ h2 {
 #mission { 
     font-size: 30;
     position: relative;
-    align-content: left;
-    padding-top: 90px;
+    text-align: center;
     background-color: #d3d0bd6e;
-    
-    
-
+    margin-top: 90px; 
 }
 
 
