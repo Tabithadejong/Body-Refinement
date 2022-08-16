@@ -9,10 +9,10 @@
 
 body { 
     font-family: Lato, sans-serif;   
-    background-image: url("../images/balanced-woman.jpg");
-    background-color: black;
+    background-color: azure;
+    background-image: url(../images/balanced-woman.jpg);
     background-position: center;
-    background-size: 100%; 
+    background-size: 150%; 
 
 }
 /* header, navigation */ 
@@ -20,13 +20,13 @@ body {
 h1 { 
     font-family: Playfair Display, sans-serif;
     color: green; 
-    text-align: center;
+    text-align: left;
 }
 
 
 #navi { 
     font-family: Playfair Display, Lato; 
-    text-align: center;
+    text-align: right;
     padding: 20 15px; 
 }
 #navi li { 
@@ -63,6 +63,23 @@ h2 {
     text-align: left;
 }
 
+#page2 { 
+    background-image: none;
+    background-color: blue;
+}
+
+/* home content */ 
+
+#mission { 
+    font-size: 30;
+    position: relative;
+    align-content: left;
+    padding-top: 90px;
+    background-color: #d3d0bd6e;
+    
+    
+
+}
 
 
 
