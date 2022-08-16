@@ -1,14 +1,80 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Playfair+Display:ital,wght@1,500&display=swap');
-
+ 
 * { 
-    font-family: Lato, sans-serif;
-}
-
-h1, h2 { 
-    font-family: Playfair Display, sans-serif;
+    margin:0 ; 
+    padding: 0; 
+    border: none; 
 
 }
+
 body { 
-    background-color: green;
-    
+    font-family: Lato, sans-serif;   
+    background-image: url("../images/balanced-woman.jpg");
+    background-color: black;
+    background-position: center;
+    background-size: 100%; 
+
 }
+/* header, navigation */ 
+
+h1 { 
+    font-family: Playfair Display, sans-serif;
+    color: green; 
+    text-align: center;
+}
+
+
+#navi { 
+    font-family: Playfair Display, Lato; 
+    text-align: center;
+    padding: 20 15px; 
+}
+#navi li { 
+    list-style: none;
+    display: inline;
+    padding-right: 5px;
+    text-decoration-color: green;  
+}
+
+#navi a:link { 
+    text-decoration: none;
+}
+
+#navi a:hover { 
+    color: black; 
+    text-decoration-line: none;
+}
+
+#navi a { 
+    color: green; 
+
+}
+
+#navi a:active { 
+    color: black; 
+}
+
+
+/*main about */ 
+
+h2 { 
+    font-family: Playfair Display, sans-serif;
+    color: green; 
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
